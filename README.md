@@ -25,3 +25,13 @@ for(i=0;i<99;){
   i++
 }
 ```
+***
+```flow
+st=>start: 开始
+op=>operation: My operation
+cond=>condition: Yes or NO?
+e=>end
+st->op->condition
+cond(yes)->e
+cond(no)->op
+```
